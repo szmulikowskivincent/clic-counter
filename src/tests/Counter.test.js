@@ -33,4 +33,3 @@ test("le compteur commence à 0, s'incrémente, se décrémente et se réinitial
   fireEvent.click(resetButton);
   expect(screen.getByText("0")).toBeInTheDocument();
 });
-

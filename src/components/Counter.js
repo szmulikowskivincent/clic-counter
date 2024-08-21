@@ -42,6 +42,7 @@ const Counter = () => {
         <button onClick={reset} className="counter-button reset-button">
           Reset
         </button>
+        <h3>Maximum de clic (10 *)</h3>
       </div>
       <Footer />
     </div>

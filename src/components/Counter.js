@@ -1,13 +1,19 @@
 import React, { useState } from "react";
-import Navbar from '../components/Navbar'; 
-import Footer from '../components/Footer'; 
+import { useNavigate } from "react-router-dom";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import "../css/Counter.css";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
+  const navigate = useNavigate();
 
   const increment = () => {
-    setCount(count + 1);
+    if (count >= 9) {
+      navigate("/error");
+    } else {
+      setCount(count + 1);
+    }
   };
 
   const decrement = () => {
@@ -41,4 +47,5 @@ const Counter = () => {
     </div>
   );
 };
+
 export default Counter;

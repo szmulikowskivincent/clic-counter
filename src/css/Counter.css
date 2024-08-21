@@ -21,24 +21,24 @@
   background-color: #282c34;
   color: #61dafb;
   border: none;
-  padding: 10px 20px;
-  font-size: 20px;
-  margin: 0 10px;
+  padding: 15px 30px;
+  font-size: 24px;
+  margin: 0 15px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .counter-value {
-  font-size: 24px;
+  font-size: 28px;
   margin: 0 20px;
 }
 
 .reset-button {
   background-color: #ff4d4d;
   color: white;
-  padding: 10px 30px;
-  font-size: 16px;
-  border-radius: 5px;
+  padding: 15px 40px;
+  font-size: 20px;
+  border-radius: 8px;
 }
 
 .counter-button:hover,

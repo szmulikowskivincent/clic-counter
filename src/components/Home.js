@@ -1,8 +1,8 @@
-import React from 'react';
-import Navbar from './Navbar';
-import Footer from './Footer';
-import reactLogo from '../assets/logo-REACT.png'; 
-import '../css/Home.css'; 
+import React from "react";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+import reactLogo from "../assets/logo-REACT.png";
+import "../css/Home.css";
 
 const Home = () => {
   return (

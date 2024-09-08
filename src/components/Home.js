@@ -11,6 +11,7 @@ const Home = () => {
       <header className="home-header">
         <img src={reactLogo} className="home-logo" alt="React logo" />
       </header>
+      <br /><br /><br /><br /><br /><br /><br />
       <Footer />
     </div>
   );
